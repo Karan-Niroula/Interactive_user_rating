@@ -47,4 +47,6 @@ This is a solution to the [interactive rating component challenge on Frontend Me
 - Vanilla JavaScript 
   
  # What I learned
- -
+
+ I learned that the variables can be used as an elements in array, and also learned about a property of DOM called textContent which is used to get the value of the content. similarly, I figured out how to make avoid user to submit more than one rating.
+ 
