@@ -12,7 +12,6 @@ This is a solution to the [interactive rating component challenge on Frontend Me
    * Built with
    * What I learned
      
-* Author
    
    
 # Overview
@@ -34,8 +33,8 @@ This is a solution to the [interactive rating component challenge on Frontend Me
 
 
 # Links
-- See live site here
-- GitHub Repository
+- [See live site here](https://karan-niroula.github.io/Interactive_user_rating/)
+- [GitHub Repository](https://github.com/Karan-Niroula/Interactive_user_rating.git)
 
 # My process
 
