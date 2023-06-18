@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary-color: : hsl(25, 97%, 53%);
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%);
+    --star-background:#32323c;
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+    --rate-bg : #262f38;
+
+}
+
+
+body{
+ color: var(--White);
+ background-color: var(--Very-Dark-Blue);
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+.star{
+    display: flex;
+    background-color: var(--star-background);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.star.img{
+    align-items: center;
+    justify-content: center;
+}
+
+.rateBox{
+    width: 280px;
+    height: auto;
+    padding: 40px 20px 30px 20px;
+    background-color: var(--rate-bg);
+    border-radius: 10px;
+
+}
+
+.rateBox h2{
+    margin-bottom: 10px;
+}
+
+.rateBox p{
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.74);
+}
+.rate_one-five{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 25px;
+    
+}
+
+.rate1, .rate2, .rate3, .rate4, .rate5 {
+  
+  padding: 12px 15px 12px 15px;
+  margin-right: 10px;
+  background-color: var(--star-background);
+  border-radius: 50%;
+}
+
+.rate1:hover, .rate2:hover, .rate3:hover, .rate4:hover, .rate5:hover{
+    background-color: var(--Orange);
+}
+
+
+.Submit{
+    width: 280px;
+    padding: 13px;
+    background-color: var(--Orange);
+    border-radius: 25px;
+    border: none;
+    font-weight: 600;
+    color: var(--White);
+}
+
+.Submit:hover{
+    color: var(--Orange);
+    background-color: var(--White);
+}
+
+.thankYouMessage{
+    display: none;
+}
+
+.userRating{
+  width: fit-content;
+  margin: auto;
+  background-color: var(--star-background);
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+
+.thankYouImg{
+    width: 250px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.thankYouImg img{
+    margin: auto;
+}
+
+.thankYouMessage h1{
+    text-align: center;
+}
+
+.thankYouMessage p{
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.74);
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.attribution{
+    position: absolute;
+    top: 95%;
+    left: 75%;
+    font-size: 10px;
+}
+
+
+
