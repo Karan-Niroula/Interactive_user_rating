@@ -93,6 +93,7 @@ body{
 .Submit:hover{
     color: var(--Orange);
     background-color: var(--White);
+    cursor: pointer;
 }
 
 .thankYouMessage{
